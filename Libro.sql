@@ -1,0 +1,7 @@
+SELECT TOP (1000) [ISBN]
+      ,[nombreLibro]
+      ,[authorLibro]
+      ,[fechaPublicacionLibro]
+      ,[rutaFoto]
+      ,[precio]
+  FROM [LibreriaInternacional].[dbo].[Libro]
